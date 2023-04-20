@@ -1,0 +1,47 @@
+.container {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url("https://img.freepik.com/free-vector/realistic-blurred-spring-background_52683-55622.jpg?w=740&t=st=1681148029~exp=1681148629~hmac=c47760ba97499f2cf3a269754b12f63f4fa58e29a46eeafbb75635bc5e863bb4");
+  background-image: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.center {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.label {
+  width: 300px;
+  padding: 1%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+}
+
+.flex {
+  width: 10px;
+  height: 10px;
+}
+
+.signup-btn:hover {
+  background-color: greenyellow;
+  color: red;
+  border-radius: 10px;
+}
+
+.input {
+  width: 10px;
+  margin: 5px;
+  padding: 5px 10px;
+  justify-content: space-between;
+  border-radius: 15px;
+}
